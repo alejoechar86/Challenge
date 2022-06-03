@@ -148,6 +148,8 @@ def index():
         usuarios = usuario[0]
         perfilusuario = usuarios
         
+        #De manera manual se ingresa el valor de identidad que el usuario de consulta quiere visualizar
+        #pero esto podría ser una información que nusuario ingresaria en un front
         consultaidentidad = 1   #Numero de identidad que el usuario de consulta quiere visualizar
         
         try:
